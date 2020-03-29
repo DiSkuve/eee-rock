@@ -33,6 +33,7 @@ def exercise1():
 
     print(k)
 def exercise2():
+    print("exercise 2")
     #statr point of catapult
     x0 = 0
     #acceleration of gravity on Earth
@@ -50,16 +51,8 @@ def exercise2():
     x = x0 + S
     print("distance is equal: " , x)
 
-
-def numbering(A):
-    S1 = int(A % 10)
-    S2 = int(A / 10 % 10)
-    S3 = int(A / 100 % 10)
-    S = S1 + S2 + S3
-
-    return S
-
 def exercise3():
+    print("exercise 3")
     A = randrange(1,9) * 100 + randrange(1,9) * 10 + randrange(1,9)
     print(A)
     numbering(A)
