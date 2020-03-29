@@ -9,6 +9,7 @@ def numbering(A):
 
     return S
 
+
 def exercise1():
     print("exercise1")
     #speed of the first trin (km/h)
@@ -32,6 +33,7 @@ def exercise1():
         k = False
 
     print(k)
+
 def exercise2():
     print("exercise 2")
     #statr point of catapult
