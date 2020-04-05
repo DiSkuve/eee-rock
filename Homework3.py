@@ -85,7 +85,7 @@ def exercise4():
     print(dostopremechatelnosti.keys())
     print(dostopremechatelnosti.items())
 
-#exercise1()
-#exercise2()
+exercise1()
+exercise2()
 #exercise3()
 exercise4()
